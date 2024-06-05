@@ -1,0 +1,27 @@
+{
+  "printWidth": 75,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": [
+        "**/*.html"
+      ],
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": [
+        "**/*.scss"
+      ],
+      "options": {
+        "printWidth": 85
+      }
+    }
+  ],
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": true,
+  "bracketSameLine": true,
+  "bracketSpacing": true
+}
